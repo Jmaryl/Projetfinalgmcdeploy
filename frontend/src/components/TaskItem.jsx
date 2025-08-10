@@ -7,7 +7,7 @@ import { CheckCircle2, MoreVertical, Clock, Calendar } from "lucide-react"
 
 
 
-const API_BASE = `${import.meta.env.VITE_API_BASE}/api/tasks`
+const API_BASE = `${import.meta.env.VITE_REACT_APP_BACKEND_BASEURL}/api/tasks`
 
 const TaskItem =({ task, onRefresh, onLogout, showCompleteCheckbox = true }) => {
 

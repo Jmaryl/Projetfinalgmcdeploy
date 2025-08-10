@@ -15,7 +15,7 @@ import {
 } from '../assets/dummy'
 
 // API Base
-const API_BASE = `${import.meta.env.VITE_API_BASE}/api/tasks`
+const API_BASE = `${import.meta.env.VITE_REACT_APP_BACKEND_BASEURL}/api/tasks`
 
 function Dashboard() {
 
