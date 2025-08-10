@@ -15,7 +15,7 @@ import {
 } from '../assets/dummy'
 
 // API Base
-const API_BASE = "http://localhost:4000/api/tasks"
+const API_BASE = `${import.meta.env.VITE_API_BASE}/api/tasks`
 
 function Dashboard() {
 

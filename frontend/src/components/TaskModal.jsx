@@ -4,7 +4,7 @@ import { PlusCircle, Save, X, AlignLeft,Flag,Calendar,CheckCircle   } from 'luci
 
 
 //API Base
-const API_BASE = 'http://localhost:4000/api/tasks'
+const API_BASE = `${import.meta.env.VITE_API_BASE}/api/tasks`
 
 const TaskModal = ({ isOpen, onClose, taskToEdit, onSave, onLogout }) => {
   const [taskData, setTaskData] = useState(DEFAULT_TASK);
